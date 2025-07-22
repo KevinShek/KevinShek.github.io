@@ -1,4 +1,269 @@
 ---
-layout: home
-author_profile: true
+title: "Kevin's Portfolio"
+layout: splash
+classes: wide
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/background.jpg
+  <!-- overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5)) -->
+  caption: "Photo credit: Joe"
+excerpt: "Completing PhD, excepted graudation Winter 2025. I like combining IoT on different Platforms."
+
+title_of_skills:
+  - title: Skills
+
+title_of_portfolio:
+  - title: Showcase
+
+feature_row:
+  - image_path: /assets/images/boards.jpg
+    max_height: 200px
+    image_caption: "Photo credit: Joe"
+    alt: "Thesis"
+    title: "Artificial Intelligence Based Image Recognition Using Limited-Resource Hardware for an Aerial Drone Application"
+    excerpt: "PhD Thesis, currently working on corrections."
+    url: ""
+    btn_label: "TBD"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/splash_drone_adjusted.jpg
+    max_height: 200px
+    image_caption: "Photo credit: Joe"
+    alt: "Single Board Computing for Image Recognition on an Autonomous Drone"
+    title: "Single Board Computing for Image Recognition on an Autonomous Drone"
+    excerpt: "Conference paper presented in IEACon in 2023."
+    url: "https://ieeexplore.ieee.org/document/10370368"
+    btn_label: "IEEE"
+    btn_class: "btn--ieee"
+  - image_path: /assets/images/DJI_mini_2.jpg
+    max_height: 200px
+    image_caption: "Photo credit: Joe"
+    title: "Current State of the Art in Object Detection for Autonomous Systems"
+    excerpt: "Conference paper presented in IMC37 in 2021."
+    url: "https://www.researchgate.net/publication/354786902_Current_State_of_the_Art_in_Object_Detection_for_Autonomous_Systems"
+    btn_label: "ResearchGate"
+    btn_class: "btn--researchgate"
+  - image_path: /assets/images/master_project_adjusted2.png
+    max_height: 150px
+    image_caption: "Photo credit: Kevin"
+    title: "The Development of Image Recognition Capability for a UAS System Based on IMechE Challenge Requirements."
+    excerpt: "Master Project, combining a Rover with a Rasberry Pi 3B in 2020."
+    url: ""
+    btn_label: "TBD"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/bee.jpg
+    max_height: 200px
+    image_caption: "Photo credit: Joe"
+    title: "Design, Build, Fly Module"
+    excerpt: "Part of a 7 man team creating and flying an autonomous fixed-wing Drone in 2019."
+    url: "https://www.youtube.com/watch?v=j6WzWHWuOyk"
+    btn_label: "Youtube"
+    btn_class: "btn--youtube"
+
+feature_row2:
+  - image_path: /assets/images/hummingbird.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Left Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row3:
+  - image_path: /assets/images/hummingbird.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Right Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row4:
+  - image_path: /assets/images/hummingbird.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Center Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
+
+
+{% include feature_row id="title_of_portfolio" %}
+
+{% include feature_row %}
+
+{% include feature_row id="title_of_skills" %}
+
+<!-- <style>
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+</style> -->
+
+<style>
+.grid_layout_homepage_skills {
+  display: grid;
+  grid-template-columns:2; 
+  place-items: center; 
+  background-color:rgba(84, 84, 84, 0.25); 
+  border-radius: .5rem; 
+  height: 8.5rem; 
+  width: 7rem;
+}
+.grid_layout_homepage_text_only {
+  display: grid; 
+  grid-template-columns:2; 
+  place-items: center; 
+  background-color:rgba(84, 84, 84, 0.25); 
+  border-radius: .5rem; 
+  height: 4rem; 
+  width: 7rem;
+}
+</style>
+
+
+<h1><center>Software Skills</center></h1>
+
+<ul style= "display: grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:2.5rem; grid-template-columns:repeat(3,minmax(0,1fr)); gap:3.0rem; grid-template-columns:repeat(7,minmax(0,1fr)); gap:1.5rem; align-items:center; margin-top:2.5rem; place-items: center;">
+  <li class="grid_layout_homepage_skills">
+    <img src="assets/images/logos/python.png", alt="python" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Python</p> 
+    </li>
+  <li class= "grid_layout_homepage_skills">
+    <img src="/assets/images/logos/solidworks.png" alt="solidworks" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Solidworks</p> 
+    </li>
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/CATIA.png" alt="CATIA" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">CATIA V5</p> 
+    </li>
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/linux.png" alt="linux" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Linux</p> 
+    </li>
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/Mission_Planner.png" alt="Mission Planner" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Mission Planner</p> 
+    </li>
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/Microsoft_Office.png" alt="Microsoft Office" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Microsoft Office</p> 
+    </li>
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/Docker.png" alt="Docker" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Docker</p> 
+    </li>
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/VBA.svg" alt="VBA" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">VBA</p> 
+    </li>
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/DELMIA.png" alt="DELMIA" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">DELMIA</p> 
+    </li>
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/Abaqus.png" alt="Abaqus" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Abaqus</p> 
+    </li>
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/ANSYS.png" alt="ANSYS" style="width:7rem;height:4rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:2.0rem;">ANSYS</p> 
+    </li>
+
+<!--     
+<a style="display: inline-block" class="btn"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" alt="python" style="width:22px;height:22px;">Python</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/solidworks.png" alt="solidworks" style="width:22px;height:22px;"> Solidworks</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/CATIA.png" alt="CATIA" style="width:22px;height:22px;"> CATIA V5</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/linux.png" alt="linux" style="width:22px;height:22px;"> Linux</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/Mission_Planner.png" alt="Mission Planner" style="width:22px;height:22px;"> Mission Planner</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/Microsoft_Office.png" alt="Microsoft Office" style="width:22px;height:22px;"> Microsoft Office</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/Docker.png" alt="Docker" style="width:22px;height:22px;">	Docker</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/VBA.svg" alt="VBA" style="width:22px;height:22px;"> VBA</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/DELMIA.png" alt="DELMIA" style="width:22px;height:22px;">	DELMIA</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/Abaqus.png" alt="Abaqus" style="width:22px;height:22px;">	Abaqus</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/ANSYS.png" alt="ANSYS" style="width:22px;height:22px;"> ANSYS</a> 
+-->
+
+</ul>
+<h1><center>A.I. Related Experience</center></h1>
+
+<ul style= "display: grid; grid-template-columns:(2,minmax(0,1fr)); gap:2.5rem; grid-template-columns:repeat(3,minmax(0,1fr)); gap:3.0rem; grid-template-columns:repeat(7,minmax(0,1fr)); gap:1.5rem;  align-items:center; z-index:10; margin-top:2.5rem; place-items: center;">
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/PyTorch.png" alt="PyTorch" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">PyTorch</p> 
+    </li>
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/Tensorflow.png" alt="Tensorflow" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Tensorflow</p> 
+    </li>
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/OpenCV.png" alt="OpenCV" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">OpenCV</p> 
+    </li>
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/nvidia-jetson.png" alt="Nvidia Jetson" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Nvidia Jetson Nano</p> 
+    </li>
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/khadas.png" alt="Khadas" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Vim3Pro</p> 
+    </li>
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/Google_Coral.png" alt="Google Coral" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Google Coral Dev Board Mini</p> 
+    </li>
+  <li class="grid_layout_homepage_skills">
+    <img src="/assets/images/logos/Raspberry-Pi.png" alt="Raspberry Pi" style="width:5rem;height:5rem;">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Raspberry Pi 3 & 4</p> 
+    </li>
+</ul>
+<!--
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/PyTorch.png" alt="PyTorch" style="width:22px;height:22px;"> PyTorch</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/Tensorflow.png" alt="Tensorflow" style="width:22px;height:22px;"> Tensorflow</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/OpenCV.png" alt="OpenCV" style="width:22px;height:22px;"> OpenCV</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/nvidia-jetson.png" alt="Nvidia Jetson" style="width:22px;height:22px;"> Nvidia Jetson Nano</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/khadas.png" alt="Khadas" style="width:22px;height:22px;"> Vim3Pro</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/Google_Coral.png" alt="Google Coral" style="width:22px;height:22px;"> Google Coral Dev Board Mini</a>
+<a style="display: inline-block" class="btn"><img src="/assets/images/logos/Raspberry-Pi.png" alt="Raspberry Pi" style="width:22px;height:22px;"> Raspberry Pi 3 & 4</a>
+-->
+<h1><center>Soft Skills</center></h1>
+<ul style= "display: grid; grid-template-columns:(2,minmax(0,1fr)); gap:2.5rem; grid-template-columns:repeat(3,minmax(0,1fr)); gap:3.0rem; grid-template-columns:repeat(4,minmax(0,1fr)); gap:1.5rem;  align-items:center; z-index:10; margin-top:2.5rem; place-items: center;">
+    <li class="grid_layout_homepage_text_only">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Presentation</p> 
+    </li>
+  <li class="grid_layout_homepage_text_only">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Teamwork</p> 
+    </li>
+  <li class="grid_layout_homepage_text_only">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Independent Work</p> 
+    </li>
+  <li class="grid_layout_homepage_text_only">
+    <p style=" font-size:1.0rem; line-height:1rem; text-align:center; margin-top:1.0rem;">Research and Writing</p> 
+    </li>
+</ul>
+
+<!--
+<a style="display: inline-block" class="btn">Presentation</a>
+<a style="display: inline-block" class="btn">Teamwork</a>
+<a style="display: inline-block" class="btn">Independent Work</a>
+<a style="display: inline-block" class="btn">Research and Writing</a>
+-->
+
+<!-- 
+{% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="right" %}
+
+{% include feature_row id="feature_row4" type="center" %} 
+-->

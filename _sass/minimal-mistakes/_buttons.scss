@@ -43,6 +43,10 @@
   (linkedin, $linkedin-color),
   (mastodon, $mastodon-color),
   (twitter, $twitter-color),
+  (github, $github-color),
+  (researchgate, $researchlogo-color),
+  (ieee, $ieee-color),
+  (youtube, $youtube-color),
   (x, $x-color);
 
   @each $buttoncolor, $color in $buttoncolors {
