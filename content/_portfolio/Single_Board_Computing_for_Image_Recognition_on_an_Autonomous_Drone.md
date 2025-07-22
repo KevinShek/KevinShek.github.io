@@ -4,8 +4,8 @@ excerpt: "This is a conference paper presented in IEACon regarding the use of Si
 date: 2023-11-06
 last_modified_at: 2025-07-11
 header:
-  overlay_image: /assets/images/splash_drone_adjusted.jpg
-  teaser: /assets/images/splash_drone_adjusted.jpg
+  overlay_image: /assets/images/splash_drone_adjusted.JPG
+  teaser: /assets/images/splash_drone_adjusted.JPG
 ---
 
 [![IEEE](/assets/images/ieee-logo.png)](https://ieeexplore.ieee.org/document/10370368)

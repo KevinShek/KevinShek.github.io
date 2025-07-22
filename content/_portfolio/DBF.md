@@ -4,8 +4,8 @@ excerpt: "Part of a 7 man team creating and flying an autonomous fixed-wing Dron
 date: 2019-03-31
 last_modified_at: 2025-07-11
 header:
-  overlay_image: /assets/images/bee.jpg
-  teaser: /assets/images/bee.jpg
+  overlay_image: /assets/images/Bee.jpg
+  teaser: /assets/images/Bee.jpg
 ---
 
 TBD.

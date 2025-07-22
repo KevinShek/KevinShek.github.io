@@ -4,8 +4,8 @@ excerpt: "This is a conference paper presented in IMC37 regarding the Current St
 date: 2021-09-07
 last_modified_at: 2025-07-11
 header:
-  overlay_image: /assets/images/dji_mini_2.jpg
-  teaser: /assets/images/dji_mini_2.jpg
+  overlay_image: /assets/images/DJI_mini_2.jpg
+  teaser: /assets/images/DJI_mini_2.jpg
 
 ---
 [![ResearchGate](/assets/images/ResearchGate_logo.png)](https://www.researchgate.net/publication/354786902_Current_State_of_the_Art_in_Object_Detection_for_Autonomous_Systems)
