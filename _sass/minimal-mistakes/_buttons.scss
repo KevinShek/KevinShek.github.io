@@ -47,6 +47,7 @@
   (researchgate, $researchlogo-color),
   (ieee, $ieee-color),
   (youtube, $youtube-color),
+  (qub, $qub-color),
   (x, $x-color);
 
   @each $buttoncolor, $color in $buttoncolors {
